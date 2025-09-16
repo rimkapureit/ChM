@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import io
 from datetime import datetime
-import openpyxl
 
 FACTURE_COLUMNS = ['Client', 'Date', 'Montant HT', 'TPS (5%)', 'TVQ (9,975%)', 'Total', 'Statut']
 DEPENSE_COLUMNS = ['Fournisseur', 'Catégorie', 'Date', 'Montant HT', 'TPS (5%)', 'TVQ (9,975%)', 'Total']
